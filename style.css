@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    background-color: rgb(10, 138, 138);
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    width: 30%;
+    height: 43%;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 2vmax;
+}
+
+input{
+    width: 80%;
+    padding: 1vmax;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.192);
+    margin-bottom: 1vmax;
+}
+
+
+button{
+    padding: 0.6vmax 3vmax;
+    border: 1px solid teal;
+    color: teal;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: teal;
+    border: none;
+    color: white;
+}
